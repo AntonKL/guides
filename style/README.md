@@ -6,7 +6,10 @@ A guide for programming in style.
 Git
 ---
 
+* Avoid merge commits for single commit branches.
 * Prefix feature branch names with your initials.
+* Use `git rebase --interactive` to squash short-lived branches into a single
+  commit.
 * Write a [good commit message].
 
 [good commit message]: http://goo.gl/w11us
