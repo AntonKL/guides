@@ -78,6 +78,8 @@ debating it within the code review. In the meantime, apply the guideline.
 Ruby on Rails review
 --------------------
 
+* Review whether SCSS files use `image-url`, not `url`, to use the asset
+  pipeline fully.
 * Review data integrity closely, such as migrations that make irreversible
   changes to the data, and whether there is a related todo to make a database
   backup during the staging and production deploys.
